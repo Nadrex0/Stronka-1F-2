@@ -1,0 +1,337 @@
+*{
+  padding: 0;
+  margin:  0;
+  box-sizing: border-box;
+}
+
+.logo_1F {
+  width: 400px;
+  vertical-align: top;
+  position: absolute;
+  left: 10px;
+  transition: width 0.2s;
+}
+
+.logo_1F:hover {
+  width: 414px;
+}
+
+.Korin {
+  height: 200px;
+  width: 1420px;
+  position: absolute;
+  top: 715px;
+  left: 200px;
+}
+
+  .Wyswietlenia {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  left: 840px;
+  top: 11px;
+  transition: font-size 0.5s, top 0.5s, left 0.5s, background-color 0.5s, color 0.5s;
+  text-decoration: none;
+  }
+
+  .Wyswietlenia:hover {
+    font-size: 19px;
+    top: 11px;
+    left: 824px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  .OPIS {
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  display: inline-block;
+  position: absolute;
+  top: 188px;
+  left: 854px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  transition: font-size 0.2s, left 0.2s, top 0.2s, background-color 0.2s, color 0.2s;
+  }
+
+  .OPIS:hover {
+    top: 185px;
+    left: 849px;
+    font-size: 55px;
+    cursor: default;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);  
+  }
+
+  .OPIS2 {
+    max-width: 1920px;
+    font-family: Arial;
+    font-size: 41px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 284px;
+    cursor: default;
+    transition: background-color 0.5s, color 0.5s;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .OPIS2:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .OLAF {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 594px;
+  left: 30%;
+  }
+
+  .Olafik:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .ZSK2 {
+    color: rgb(255, 0, 0);
+  }
+
+  .NavBar ul {
+    list-style-type: none;
+    font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 65px;
+  left: 400px;
+  border-radius: 25px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  }
+
+  .NavBar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+  transition: background-color 0.5s;
+  list-style-type: none;
+    font-family: Arial;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: inline-block;
+  }
+
+  .NavBar a:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+
+  .NavBar li {
+    float: left;
+  }
+
+@media screen and (max-width: 900px)
+{
+  .Wyswietlenia {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  left: 30%;
+  top: 214px;
+  transition: font-size 0.5s, top 0.5s, left 0.5s, background-color 0.5s, color 0.5s;
+  text-decoration: none;
+  }
+
+  .Wyswietlenia:hover {
+    font-size: 19px;
+    top: 214px;
+    left: 30%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  .NavBar ul {
+    list-style-type: none;
+    font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 274px;
+  left: 0px;
+  border-radius: 25px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  }
+
+  .NavBar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+  transition: background-color 0.5s;
+  list-style-type: none;
+    font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: inline-block;
+  }
+
+  .NavBar a:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+
+  .NavBar li {
+    float: left;
+  }
+
+  .OPIS2 {
+    max-width: 1920px;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 540px;
+    cursor: default;
+    transition: background-color 0.5s, color 0.5s;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .OPIS2:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .OLAF {
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 784px;
+    left: 0%;
+    }
+  
+    .OPIS {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  display: inline-block;
+  position: absolute;
+  top: 487px;
+  left: 41%;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  transition: font-size 0.2s, left 0.2s, top 0.2s, background-color 0.2s, color 0.2s;
+  }
+
+  .OPIS:hover {
+    top: 185px;
+    left: 849px;
+    font-size: 55px;
+    cursor: default;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);  
+  }
+  
+
+}
